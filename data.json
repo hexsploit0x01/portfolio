@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "name": "Nikhil K",
+    "handle": "hexsploit0x01",
+    "aka": "aka Hexsploit0x01/hex",
+    "role": "CyberSecurity Consultant"
+  },
+  "bio": [
+    "I'm Nikhil — a cybersecurity consultant focused on offensive security and applied security research. I help organizations find and fix vulnerabilities before attackers do.",
+    "Most days I'm testing web apps, mobile apps, and Active Directory environments — then translating findings into fixes engineering teams can actually ship."
+  ],
+  "skills": [
+    "Web Application Pentesting",
+    "Mobile Application Pentesting (Android / iOS)",
+    "Vulnerability Assessment",
+    "Active Directory Pentesting",
+    "Secure Code Review",
+    "AI Red Teaming"
+  ],
+  "certifications": [
+    { "name": "CRTO",       "full": "Certified Red Team Operator",               "issuer": "Zero-Point Security" },
+    { "name": "OSCP",       "full": "Offensive Security Certified Professional", "issuer": "Offensive Security" },
+    { "name": "OSEP",       "full": "Experienced Penetration Tester",            "issuer": "Offensive Security" },
+    { "name": "OSWE",       "full": "Offensive Security Web Expert",             "issuer": "Offensive Security" },
+    { "name": "CREST CPSA", "full": "Practitioner Security Analyst",             "issuer": "CREST" },
+    { "name": "CREST CRT",  "full": "Registered Penetration Tester",             "issuer": "CREST" },
+    { "name": "eMAPT",      "full": "Mobile Application Penetration Tester",     "issuer": "INE / eLearnSecurity" }
+  ],
+  "experience": [
+    {
+      "role": "Cybersecurity Consultant",
+      "company": "Confidential",
+      "start": "2023-10",
+      "end": null,
+      "description": "Offensive security engagements across web, mobile, and Active Directory. Drives assessments end-to-end — scoping, execution, reporting, and remediation guidance."
+    }
+  ],
+  "blog": [],
+  "contact": {
+    "email": "k@notnikhil.com",
+    "linkedin": "https://linkedin.com/in/notnikhil",
+    "x": "https://x.com/hexsploit0x01"
+  }
+}

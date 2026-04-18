@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nikhil — CyberSecurity Consultant</title>
+  <meta name="description" content="Nikhil — CyberSecurity Consultant. Offensive security, OSINT, and applied security research." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#" class="nav-brand" aria-label="Home">
+      <span class="prompt">~/</span><span class="nav-user" id="nav-handle">nikhil</span><span class="cursor-mini">_</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#shell">./shell</a>
+      <a href="#about">./about</a>
+      <a href="#skills">./skills</a>
+      <a href="#certs">./certs</a>
+      <a href="#experience">./experience</a>
+      <a href="#blog">./blog</a>
+      <a href="#contact">./contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot red" aria-hidden="true"></span>
+          <span class="dot yellow" aria-hidden="true"></span>
+          <span class="dot green" aria-hidden="true"></span>
+          <span class="terminal-title">nikhil@ops — -zsh</span>
+        </div>
+        <div class="terminal-body">
+          <p class="line"><span class="user">nikhil@ops</span>:<span class="path">~</span>$ <span class="cmd">whoami</span></p>
+          <div class="hero-name-row">
+            <h1 class="glitch" data-text="Nikhil" id="hero-name">Nikhil</h1>
+            <span class="aka" id="hero-aka" hidden></span>
+          </div>
+          <p class="tagline" id="hero-role">// CyberSecurity Consultant</p>
+          <p class="line"><span class="user">nikhil@ops</span>:<span class="path">~</span>$ <span class="cmd">./what_i_do.sh</span></p>
+          <p class="line typed-line"><span class="typed" id="typed"></span><span class="cursor">▊</span></p>
+          <p class="line small"><span class="comment"># scroll down — or jump into an interactive shell below.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE SHELL -->
+    <section id="shell" class="section shell-section">
+      <h2><span class="token">&gt;</span> interactive shell <span class="muted-hint">— type <code>help</code></span></h2>
+      <div class="terminal shell-terminal" id="shell-term">
+        <div class="terminal-bar">
+          <span class="dot red"    aria-hidden="true"></span>
+          <span class="dot yellow" aria-hidden="true"></span>
+          <span class="dot green"  aria-hidden="true"></span>
+          <span class="terminal-title">visitor@nikhil — bash</span>
+        </div>
+        <div class="terminal-body shell-body" id="shell-body">
+          <div class="shell-history" id="shell-history"></div>
+          <form class="shell-input-line" id="shell-form" autocomplete="off">
+            <span class="user">visitor@nikhil</span><span class="sep">:</span><span class="path">~</span><span class="sep">$</span>
+            <input
+              type="text"
+              class="shell-input"
+              id="shell-input"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              aria-label="Shell input"
+            />
+            <span class="cursor">▊</span>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2><span class="token">&gt;</span> cat about.md</h2>
+      <div class="card" id="bio"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2><span class="token">&gt;</span> ls skills/</h2>
+      <ul class="skills-flat" id="skills-list"></ul>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section">
+      <h2><span class="token">&gt;</span> ls certifications/</h2>
+      <ul class="cert-list" id="cert-list"></ul>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2><span class="token">&gt;</span> cat experience.log</h2>
+      <ol class="timeline" id="exp-list"></ol>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="section">
+      <h2><span class="token">&gt;</span> ls blog/</h2>
+      <div class="projects" id="blog-list"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2><span class="token">&gt;</span> contact --me</h2>
+      <div class="card">
+        <p>Open to consulting engagements, collaborations, and interesting problems. The best way to reach me:</p>
+        <ul class="contact-list" id="contact-list"></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="muted">&copy; <span id="year"></span> Nikhil. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
