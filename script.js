@@ -189,9 +189,9 @@
      ================================================================ */
   const startTyping = () => {
     const phrases = [
-      'breaking web apps (with permission).',
+      'breaking web apps (with permission :p).',
       'pivoting through Active Directory.',
-      'rooting Android & iOS apps.',
+      'pwning Android & iOS apps.',
       'hunting subdomains at 3am.',
       'turning recon into reports.',
       'shipping fixes, not just findings.',
